@@ -6,5 +6,12 @@ module.exports = [
     '_bulkDocs',
     'allDocs',
     '_id',
-    '_getRevisionTree',
+    'compact',
+    'bulkGet',
+    'remove',
+    'getAttachment',
+    'removeAttachment',
+    'putAttachment',
+    '_put',
+    'revsDiff'
 ];

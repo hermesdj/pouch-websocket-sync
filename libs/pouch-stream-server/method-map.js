@@ -2,6 +2,5 @@
 
 module.exports = {
     _bulkDocs: 'bulkDocs',
-    _id: 'id',
-    _getRevisionTree: 'getRevisionTree',
+    _id: 'id'
 };
