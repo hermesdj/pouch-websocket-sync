@@ -1,6 +1,6 @@
 {
   "name": "pouch-websocket-sync",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "PouchDB live sync through websockets",
   "main": "index.js",
   "scripts": {
@@ -19,12 +19,17 @@
   "homepage": "https://github.com/pgte/pouch-websocket-sync#readme",
   "tags": [
     "pouchdb",
-    "websocket",
-    "stream"
+    "stream",
+    "sync",
+    "websockets"
   ],
   "dependencies": {
-    "pouch-stream-multi-sync": "^0.3.0",
-    "websocket-stream": "^2.1.0"
+    "websocket-stream": "^2.1.0",
+    "debug": "latest",
+    "pipe-channels": "latest",
+    "xtend": "latest",
+    "duplexify": "latest",
+    "reconnect-core": "latest"
   },
   "devDependencies": {
     "code": "^2.0.1",
@@ -32,18 +37,7 @@
     "istanbul": "^0.4.0",
     "lab": "^7.3.0",
     "memdown": "^1.1.0",
-    "pouchdb": "^5.1.0",
-    "pre-commit": "^1.1.2"
+    "pouchdb": "^5.1.0"
   },
-  "tags": [
-    "pouchdb",
-    "stream",
-    "sync",
-    "websockets"
-  ],
-  "browser": "browser.js",
-  "pre-commit": [
-    "style",
-    "test"
-  ]
+  "browser": "browser.js"
 }
