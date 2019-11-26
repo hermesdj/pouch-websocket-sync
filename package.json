@@ -29,7 +29,10 @@
     "pipe-channels": "latest",
     "xtend": "latest",
     "duplexify": "latest",
-    "reconnect-core": "latest"
+    "reconnect-core": "latest",
+    "lie": "latest",
+    "argsarray": "latest",
+    "once": "latest"
   },
   "devDependencies": {
     "code": "^2.0.1",
