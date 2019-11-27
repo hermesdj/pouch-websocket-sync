@@ -67,7 +67,6 @@ Stream.prototype._transform = function _transform(data, enc, callback) {
             let args = data.shift() || [];
 
             debug('db: %s, method: %s, args: %j', dbName, method, args);
-            debug('db: %O', db)
 
             args.push(cb);
             let fn = db[method];
