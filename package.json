@@ -1,6 +1,6 @@
 {
-  "name": "pouch-websocket-sync",
-  "version": "0.3.1",
+  "name": "@it4mag/pouch-websocket-sync",
+  "version": "1.0.0",
   "description": "PouchDB live sync through websockets",
   "main": "index.js",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pgte/pouch-websocket-sync.git"
+    "url": "git+https://github.com/hermesdj/pouch-websocket-sync.git"
   },
   "author": "pgte",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pgte/pouch-websocket-sync/issues"
+    "url": "https://github.com/hermesdj/pouch-websocket-sync/issues"
   },
-  "homepage": "https://github.com/pgte/pouch-websocket-sync#readme",
+  "homepage": "https://github.com/hermesdj/pouch-websocket-sync#readme",
   "tags": [
     "pouchdb",
     "stream",
@@ -41,6 +41,9 @@
     "lab": "^7.3.0",
     "memdown": "^1.1.0",
     "pouchdb": "^5.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry-npm.it4mag.com"
   },
   "browser": "browser.js"
 }
