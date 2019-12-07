@@ -1,5 +1,5 @@
 {
-  "name": "@it4mag/pouch-websocket-sync",
+  "name": "pouch-websocket-sync",
   "version": "1.0.0",
   "description": "PouchDB live sync through websockets",
   "main": "index.js",
@@ -41,9 +41,6 @@
     "lab": "^7.3.0",
     "memdown": "^1.1.0",
     "pouchdb": "^5.1.0"
-  },
-  "publishConfig": {
-    "registry": "https://registry-npm.it4mag.com"
   },
   "browser": "browser.js"
 }
